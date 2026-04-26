@@ -38,8 +38,8 @@ print("=" * 70)
 import time
 
 # Securely Load Environment Variables for API Keys by injecting them for the hackathon
-api_key = "AIzaSyAsO1JRy3MEyI8ZiJcUdySKvJUZ4ST84zM"
-pinecone_api_key = "pcsk_71metJ_EPJVvxpZtJymyBjFmta7JHygjyXwf6un3Xo1R3aej5yyKW3dq2oiw6ZBqAvYdmP"
+api_key = "GEMINI_API_KEY_PLACEHOLDER"
+pinecone_api_key = "PINECONE_API_KEY_PLACEHOLDER"
 os.environ["PINECONE_API_KEY"] = pinecone_api_key
 os.environ["GOOGLE_API_KEY"] = api_key
 
